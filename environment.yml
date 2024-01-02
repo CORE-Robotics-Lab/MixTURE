@@ -1,0 +1,30 @@
+name: MAHT-LfD
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - black
+  - gym
+  - isort
+  - filelock
+  - matplotlib
+  - networkx
+  - numpy
+  - pandas
+  - pytest
+  - python
+  - python-blosc
+  - pytorch
+  - pytorch-cuda=11.7
+  - scikit-learn
+  - scipy
+  - seaborn
+  - snakeviz
+  - tensorboard
+  - termcolor
+  - tqdm
+  - pip
+  - pip:
+      - ray[default]
+      - ray[tune]
