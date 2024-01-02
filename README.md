@@ -44,7 +44,7 @@ specified when instantiated an AgentGroup
 
 ## Examples
 
-### Running our method w/o behavioral cloning
+### Running the MixTURE w/o behavioral cloning
 
 ```python
 from agents import FullAttentionMIMAgents
@@ -70,7 +70,7 @@ trainer.evaluate()
 print(trainer.logger.data["episode_len"][-1])
 ```
 
-### Running our method w/ behavioral cloning
+### Running the MixTURE w/ behavioral cloning
 
 ```python
 from ablations.simultaneous import CombinedTrainer, ExposedBCTrainer, ExposedPPOTrainer
