@@ -1,5 +1,12 @@
 # Mixed-Initiative Multiagent Apprenticeship Learning for Human Training of Robot Teams
 
+## Paper Information
+
+### Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS) 2023
+### Authors: Esmaeil Seraj, Jerry Xiong, Mariah Schrum, Matthew Gombolay
+### Full-Read Link: https://openreview.net/forum?id=VCOZaczCHg
+### Short Presentation: https://youtu.be/COGGl3lFH94?si=Z3CugC5PDTSST8gA
+
 ## Experiment: heuristic demonstrations
 
 1. Decompress demonstration files: `cd demos ; python decompress.py`
@@ -99,4 +106,14 @@ for _ in range(100):
 
 trainer.evaluate()
 print(trainer.logger.data["episode_len"][-1])
+```
+### Citation
+
+```
+@inproceedings{seraj2023mixed,
+  title={Mixed-Initiative Multiagent Apprenticeship Learning for Human Training of Robot Teams},
+  author={Seraj, Esmaeil and Xiong, Jerry Yuyang and Schrum, Mariah L and Gombolay, Matthew},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023}
+}
 ```
