@@ -107,6 +107,10 @@ for _ in range(100):
 trainer.evaluate()
 print(trainer.logger.data["episode_len"][-1])
 ```
+### Questions
+
+In case of any questions, please reach out directly to Esmaeil Seraj at <eseraj3@gatech.edu>
+
 ### Citation
 
 ```
